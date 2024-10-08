@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_estate_property_all_users,Toto,model_estate_property,base.group_user,1,1,1,1
+access_estate_property_state_all_users,Estate Property State All Users,model_estate_property_state,base.group_user,1,1,1,1
+access_estate_property_offer_all_users,Estate Property Offer All Users,model_estate_property_offer,base.group_user,1,1,1,1
