@@ -19,14 +19,15 @@
                             />
                         </group>
                         <group name="info" string="Informations">
-                            <field name="street" />
+                            <field name="street" readonly="street != False"/>
                             <field name="city" />
                             <field name="country_id" />
                         </group>
                         <notebook>
                             <page name="offer" string="offer">
+                                <field name="state_id"/>
                                 <field name="offer_ids" >
-                                    <list create="false" delete="0">
+                                    <list  delete="0">
                                         <field name="name"/>
                                         <field name="buyer_id" optional="hide"/>
                                         <field name="offer_date"/>
@@ -40,6 +41,7 @@
                 </form>
             </field>
         </record>
+
 
         <!-- Action for estate.property -->
         <record id="action_estate_property" model="ir.actions.act_window">

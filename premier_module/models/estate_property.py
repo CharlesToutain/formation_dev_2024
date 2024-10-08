@@ -4,6 +4,10 @@ class EstateProperty(models.Model):
     _name = 'estate.property'
     _inherit = ['image.mixin']
     _description = 'Estate Property'
+
+    _sql_constraints = [
+        ('check_name_unique', 'UNIQUE(name)', 'The name of the property must be unique')
+    ]
     
   
     name = fields.Char(
@@ -36,4 +40,9 @@ class EstateProperty(models.Model):
         if not vals.get('description'):
             vals['description'] = 'lorem ipsum'
         return super().create(vals)
+
+    # @api.onchange('city', 'zip', 'country_id', 'street')
+    # def onchange_city(self):
+    #     if self.city or self.zip or self.country_id or self.street:
+    #         self.description += f'{self.street} {self.zip} {self.city} {self.country_id.name}'
     

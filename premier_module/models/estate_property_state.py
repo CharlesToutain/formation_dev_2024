@@ -5,3 +5,4 @@ class EstatePropertyState(models.Model):
     _description = 'Estate Property State'
 
     name = fields.Char(string='Name')
+    is_sale = fields.Boolean(string='Is a Sale State')

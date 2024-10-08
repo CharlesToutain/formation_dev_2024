@@ -1,5 +1,6 @@
 from odoo import models, fields, api
 from datetime import timedelta
+from odoo.exceptions import ValidationError
 
 class EstatePropertyOffer(models.Model):
     _name = 'estate.property.offer'
@@ -54,3 +55,29 @@ class EstatePropertyOffer(models.Model):
             if not vals.get('offer_date'):
                 vals['offer_date'] = fields.Date.today()
         return super().create(vals_list)
+    
+    def action_accept(self):
+        self.ensure_one()
+        is_sale_state = self.env['estate.property.state'].search([('is_sale', '=', True)])
+        self.estate_property_id.write({
+            'state_id': is_sale_state.id,
+            'owner_id': self.buyer_id.id,
+        })
+        return {
+            'type': 'ir.actions.act_window',
+            'res_model': 'estate.property',
+            'view_mode': 'form',
+            'res_id': self.estate_property_id.id,
+        }
+    
+    @api.constrains('estate_property_id', 'buyer_id', 'selling_price')
+    def _check_doublon(self):
+        for offer in self:
+            doublon = self.search_count([
+                ('estate_property_id', '=', offer.estate_property_id.id),
+                ('buyer_id', '=', offer.buyer_id.id),
+                ('selling_price', '=', offer.selling_price),
+            ])
+            if doublon > 1:
+                raise ValidationError('This offer already exists')
+            
