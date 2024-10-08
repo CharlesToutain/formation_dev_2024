@@ -8,7 +8,7 @@
     'author': 'Your Name',
     'website': 'http://www.yourwebsite.com',
     'category': 'Uncategorized',
-    'depends': ['base', 'contacts'],
+    'depends': ['base', 'contacts', 'crm'],
     'data': [
         #SECURITY
         'security/ir.model.access.csv',
@@ -16,6 +16,8 @@
         'views/estate_property_views.xml',
         'views/estate_property_state_views.xml',
         'views/estate_property_offer_views.xml',
+        'views/estate_property_tag_views.xml',
+        'views/crm_lead_views.xml',
         'views/menu.xml',
     ],
     'demo': [

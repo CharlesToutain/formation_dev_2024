@@ -47,3 +47,10 @@ class EstatePropertyOffer(models.Model):
             operator = 'ilike'
         date = fields.Date.from_string(value)
         return [('offer_date', operator, date - timedelta(days=30))]
+    
+    @api.model_create_multi
+    def create(self, vals_list):
+        for vals in vals_list:
+            if not vals.get('offer_date'):
+                vals['offer_date'] = fields.Date.today()
+        return super().create(vals_list)

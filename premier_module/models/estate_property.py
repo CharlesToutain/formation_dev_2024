@@ -27,3 +27,13 @@ class EstateProperty(models.Model):
     owner_id = fields.Many2one('res.partner', string='Owner')
     image_1920 = fields.Image(string='Picture')
     state_id = fields.Many2one('estate.property.state', string='State')
+    offer_ids = fields.One2many('estate.property.offer', 'estate_property_id', string='Offers')
+    tag_ids = fields.Many2many('estate.property.tag', string='Tags')
+
+
+    @api.model
+    def create(self, vals):
+        if not vals.get('description'):
+            vals['description'] = 'lorem ipsum'
+        return super().create(vals)
+    

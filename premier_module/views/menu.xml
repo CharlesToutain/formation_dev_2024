@@ -27,6 +27,11 @@
                 action="action_estate_property_state"
                 sequence="2"
             />
+            <menuitem 
+                id="menu_estate_property_tag"
+                name="Property Tags"
+                action="action_estate_property_tag"
+            />
         </menuitem>
     </menuitem>    
 
