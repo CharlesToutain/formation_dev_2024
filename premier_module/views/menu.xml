@@ -2,7 +2,8 @@
 <odoo>
 
     <menuitem 
-        id="menu_estate_property_root" 
+        id="menu_estate_property_root"
+        groups="premier_module.group_estate_user_noup"
         name="Estate"
         sequence="1">
         <menuitem 

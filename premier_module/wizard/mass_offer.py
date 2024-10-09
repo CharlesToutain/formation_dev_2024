@@ -22,7 +22,7 @@ class MassOffer(models.TransientModel):
             'type': 'ir.actions.act_window',
             'res_model': 'estate.property.offer',
             'view_mode': 'list,form',
-            'context': {'search_default_buyer_id': self.buyer_id.id},
+            'context': {'search_default_buyer': self.buyer_id.id},
         }
 
 

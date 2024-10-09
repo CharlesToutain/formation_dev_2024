@@ -1,5 +1,5 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_estate_property_all_users,Toto,model_estate_property,base.group_user,1,1,1,1
+access_estate_property_all_users,Toto,model_estate_property,premier_module.group_estate_user_noup,1,1,1,1
 access_estate_property_state_all_users,Estate Property State All Users,model_estate_property_state,base.group_user,1,1,1,1
 access_estate_property_offer_all_users,Estate Property Offer All Users,model_estate_property_offer,base.group_user,1,1,1,1
 access_estate_property_tag_all_users,Estate Property Tag All Users,model_estate_property_tag,base.group_user,1,1,1,1
@@ -7,5 +7,8 @@ access_estate_property_tag_all_users,Estate Property Tag All Users,model_estate_
 
 access_mon_super_wizard_all_users,Mon Super Wizard All Users,model_mon_super_wizard,base.group_user,1,1,1,1
 
-access_mass_offer_all_users,Mass Offer All Users,model_mass_offer,base.group_user,1,1,1,1
-access_mass_offer_line_all_users,Mass Offer Line All Users,model_mass_offer_line,base.group_user,1,1,1,1
+access_mass_offer_admin_users,Mass Offer All Users,model_mass_offer,premier_module.group_estate_administrator_noup,1,1,1,1
+access_mass_offer_line_admin_users,Mass Offer Line All Users,model_mass_offer_line,premier_module.group_estate_administrator_noup,1,1,1,1
+
+access_mass_offer_user,Mass Offer All Users,model_mass_offer,premier_module.group_estate_user_noup,1,0,0,0
+access_mass_offer_line_user,Mass Offer Line All Users,model_mass_offer_line,premier_module.group_estate_user_noup,1,1,1,1

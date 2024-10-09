@@ -1,0 +1,11 @@
+<odoo>
+    <data>
+        <record id="group_estate_administrator_noup" model="res.groups">
+            <field name="name">Estate Administrator</field>
+            <field name="implied_ids" eval="[(4, ref('group_estate_user_noup'))]"/>
+        </record>
+        <record id="group_estate_user_noup" model="res.groups">
+            <field name="name">Estate User</field>
+        </record>
+    </data>
+</odoo>

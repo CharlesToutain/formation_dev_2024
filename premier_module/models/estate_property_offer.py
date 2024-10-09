@@ -4,6 +4,7 @@ from odoo.exceptions import ValidationError
 
 class EstatePropertyOffer(models.Model):
     _name = 'estate.property.offer'
+    _inherit = ['commission.mixin']
     _description = 'Estate Property Offer'
 
     name = fields.Char(
@@ -31,11 +32,22 @@ class EstatePropertyOffer(models.Model):
         compute='_compute_validity_date',
         store=True,
     )
+    margin = fields.Float(
+        string='Margin',
+        compute='_compute_margin',
+        store=True,
+    )
 
     @api.depends('estate_property_id', 'buyer_id', 'offer_date', 'selling_price', 'seller_id')
     def _compute_name(self):
         for offer in self:
             offer.name = f'{offer.estate_property_id.name} - {offer.buyer_id.name} - {offer.offer_date} - {offer.selling_price} - {offer.seller_id.name}'
+    
+    @api.depends('selling_price')
+    def _compute_margin(self):
+        for offer in self:
+            commission = self._get_commission(offer.selling_price)
+            offer.margin = offer.selling_price - commission
     
     @api.depends('offer_date')
     def _compute_validity_date(self):
@@ -64,6 +76,8 @@ class EstatePropertyOffer(models.Model):
     def action_accept(self):
         self.ensure_one()
         is_sale_state = self.env['estate.property.state'].search([('is_sale', '=', True)])
+        # SI J'AI UN XML ID
+        # is_sale_state = self.env.ref('premier_module.estate_property_state_offer_accepted')
         self.estate_property_id.write({
             'state_id': is_sale_state.id,
             'owner_id': self.buyer_id.id,

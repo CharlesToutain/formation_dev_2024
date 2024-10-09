@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="estate_property_state_new" model="estate.property.state">
+            <field name="name">New</field>
+        </record>
+        <record id="estate_property_state_offer_received" model="estate.property.state">
+            <field name="name">Offer Received</field>
+        </record>
+        <record id="estate_property_state_offer_accepted" model="estate.property.state">
+            <field name="name">Offer Accepted</field>
+        </record>
+        <record id="estate_property_state_sold" model="estate.property.state">
+            <field name="name">Sold</field>
+        </record>
+        <record id="estate_property_state_cancelled" model="estate.property.state">
+            <field name="name">Cancelled</field>
+        </record>
+    </data>
+</odoo>

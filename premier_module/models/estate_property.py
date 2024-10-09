@@ -19,6 +19,7 @@ class EstateProperty(models.Model):
     zip = fields.Char(string='Postal Code')
     city = fields.Char(string='City')
     price = fields.Float(string='Price')
+    user_id = fields.Many2one('res.users', string='Salesperson')
     type = fields.Selection([
         ('appartement', 'Appartement'),
         ('maison', 'Maison'),
@@ -46,3 +47,7 @@ class EstateProperty(models.Model):
         if self.city or self.zip or self.country_id or self.street:
             self.description += f'{self.street} {self.zip} {self.city} {self.country_id.name}'
     
+    def mon_super_cron(self):
+        records = self.search([])
+        for record in records:
+            record.description = 'Cron'
