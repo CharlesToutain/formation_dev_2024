@@ -20,6 +20,8 @@
         'views/crm_lead_views.xml',
         'views/res_partner.xml',
         'views/menu.xml',
+        # WIZARD
+        'wizard/mon_super_wizard_views.xml',
     ],
     'demo': [
         # List of demo data files

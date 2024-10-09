@@ -3,3 +3,6 @@ access_estate_property_all_users,Toto,model_estate_property,base.group_user,1,1,
 access_estate_property_state_all_users,Estate Property State All Users,model_estate_property_state,base.group_user,1,1,1,1
 access_estate_property_offer_all_users,Estate Property Offer All Users,model_estate_property_offer,base.group_user,1,1,1,1
 access_estate_property_tag_all_users,Estate Property Tag All Users,model_estate_property_tag,base.group_user,1,1,1,1
+
+
+access_mon_super_wizard_all_users,Mon Super Wizard All Users,model_mon_super_wizard,base.group_user,1,1,1,1

@@ -42,6 +42,26 @@
             </field>
         </record>
 
+        <!-- List View for estate.property -->
+        <record id="view_estate_property_list" model="ir.ui.view">
+            <field name="name">estate.property.list</field>
+            <field name="model">estate.property</field>
+            <field name="arch" type="xml">
+                <list string="Estate Property">
+                    <header>
+                        <button name="%(premier_module.action_mon_super_wizard)d"
+                                type="action"
+                                string="Mon Super Wizard"
+                                class="btn-secondary"/>
+                    </header>
+                    <field name="name"/>
+                    <field name="owner_id"/>
+                    <field name="type"/>
+                    <field name="city"/>
+                    <field name="state_id"/>
+                </list>
+            </field>
+        </record>
 
         <!-- Action for estate.property -->
         <record id="action_estate_property" model="ir.actions.act_window">

@@ -69,7 +69,7 @@ class EstatePropertyOffer(models.Model):
             'view_mode': 'form',
             'res_id': self.estate_property_id.id,
         }
-    
+
     @api.constrains('estate_property_id', 'buyer_id', 'selling_price')
     def _check_doublon(self):
         for offer in self:
