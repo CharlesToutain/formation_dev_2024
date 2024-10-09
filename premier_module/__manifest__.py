@@ -24,6 +24,8 @@
         'views/estate_property_tag_views.xml',
         'views/crm_lead_views.xml',
         'views/res_partner.xml',
+        #REPORT
+        'report/report_estate_property.xml',
         # WIZARD
         'wizard/mon_super_wizard_views.xml',
         'wizard/mass_offer_views.xml',
