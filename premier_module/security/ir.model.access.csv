@@ -6,3 +6,6 @@ access_estate_property_tag_all_users,Estate Property Tag All Users,model_estate_
 
 
 access_mon_super_wizard_all_users,Mon Super Wizard All Users,model_mon_super_wizard,base.group_user,1,1,1,1
+
+access_mass_offer_all_users,Mass Offer All Users,model_mass_offer,base.group_user,1,1,1,1
+access_mass_offer_line_all_users,Mass Offer Line All Users,model_mass_offer_line,base.group_user,1,1,1,1

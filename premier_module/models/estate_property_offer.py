@@ -20,11 +20,16 @@ class EstatePropertyOffer(models.Model):
     buyer_id = fields.Many2one('res.partner', string='Buyer')
     selling_price = fields.Float(string='Selling Price')
     offer_date = fields.Date(string='Offer Date')
+    # validity_date = fields.Date(
+    #     string='Validity Date',
+    #     compute='_compute_validity_date',
+    #     inverse='_inverse_validity_date',
+    #     search='_search_validity_date',
+    # )
     validity_date = fields.Date(
         string='Validity Date',
         compute='_compute_validity_date',
-        inverse='_inverse_validity_date',
-        search='_search_validity_date',
+        store=True,
     )
 
     @api.depends('estate_property_id', 'buyer_id', 'offer_date', 'selling_price', 'seller_id')

@@ -15,7 +15,13 @@
             id="menu_estate_property_offer"
             name="Property Offers"
             action="action_estate_property_offer"
-            sequence="1"
+            sequence="2"
+        />
+        <menuitem 
+            id="menu_estate_property_mass_offer"
+            name="Mass Offers"
+            action="action_mass_offer_wizard"
+            sequence="3"
         />
         <menuitem
             id="model_estate_config"
