@@ -1,6 +1,6 @@
 {
     'name': 'Premier Module',
-    'version': '1.0',
+    'version': '1.3',
     'summary': 'A brief summary of the module',
     'description': """
         A detailed description of the module.
@@ -10,13 +10,13 @@
     'category': 'Uncategorized',
     'depends': ['base', 'contacts', 'crm'],
     'data': [
-        #SECURITY
-        'security/ir.model.access.csv',
         #DATA
         'data/res_groups.xml',
         'data/ir_rule.xml',
         'data/estate_property_state.xml',
         'data/ir_cron.xml',
+        #SECURITY
+        'security/ir.model.access.csv',
         #VIEWS
         'views/estate_property_views.xml',
         'views/estate_property_state_views.xml',

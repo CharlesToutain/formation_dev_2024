@@ -1,0 +1,1490 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* premier_module
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-09 14:46+0000\n"
+"PO-Revision-Date: 2024-10-09 14:46+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__meeting_count
+msgid "# Meetings"
+msgstr ""
+
+#. module: premier_module
+#: model_terms:ir.ui.view,arch_db:premier_module.report_estate_property
+msgid "<strong>Lead Name:</strong>"
+msgstr ""
+
+#. module: premier_module
+#: model_terms:ir.ui.view,arch_db:premier_module.report_estate_property
+msgid "<strong>Property Description:</strong>"
+msgstr ""
+
+#. module: premier_module
+#: model_terms:ir.ui.view,arch_db:premier_module.report_estate_property
+msgid "<strong>Property Name:</strong>"
+msgstr ""
+
+#. module: premier_module
+#: model_terms:ir.ui.view,arch_db:premier_module.view_estate_property_offer_form
+msgid "Accept"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__property_account_payable_id
+msgid "Account Payable"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__property_account_receivable_id
+msgid "Account Receivable"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__message_needaction
+msgid "Action Needed"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__active
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_tag__active
+msgid "Active"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__active_lang_count
+msgid "Active Lang Count"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__activity_ids
+msgid "Activities"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__activity_state
+msgid "Activity State"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__activity_type_icon
+msgid "Activity Type Icon"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__additional_info
+msgid "Additional info"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__type
+msgid "Address Type"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,help:premier_module.field_estate_property_owner__lang
+msgid ""
+"All the emails and documents sent to this contact will be translated in this"
+" language."
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields.selection,name:premier_module.selection__estate_property__type__appartement
+msgid "Appartement"
+msgstr ""
+
+#. module: premier_module
+#: model_terms:ir.ui.view,arch_db:premier_module.view_mass_offer_wizard
+msgid "Apply"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property__superficie
+msgid "Area"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__message_attachment_count
+msgid "Attachment Count"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__autopost_bills
+msgid "Auto-post bills"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,help:premier_module.field_estate_property_owner__autopost_bills
+msgid "Automatically post bills for this trusted partner"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__avatar_1920
+msgid "Avatar"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__avatar_1024
+msgid "Avatar 1024"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__avatar_128
+msgid "Avatar 128"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__avatar_256
+msgid "Avatar 256"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__avatar_512
+msgid "Avatar 512"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__bank_account_count
+msgid "Bank"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__bank_ids
+msgid "Banks"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__barcode
+msgid "Barcode"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__is_blacklisted
+msgid "Blacklist"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__mobile_blacklisted
+msgid "Blacklisted Phone Is Mobile"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__phone_blacklisted
+msgid "Blacklisted Phone is Phone"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__message_bounce
+msgid "Bounce"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_offer__buyer_id
+#: model:ir.model.fields,field_description:premier_module.field_mass_offer__buyer_id
+msgid "Buyer"
+msgstr ""
+
+#. module: premier_module
+#: model_terms:ir.ui.view,arch_db:premier_module.view_mass_offer_wizard
+#: model_terms:ir.ui.view,arch_db:premier_module.view_mon_super_wizard_form
+msgid "Cancel"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_tag__parent_id
+msgid "Category"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__channel_ids
+msgid "Channels"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,help:premier_module.field_estate_property_owner__is_company
+msgid "Check if the contact is a company, otherwise it is a person"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,help:premier_module.field_estate_property_owner__employee
+msgid "Check this box if this contact is an Employee."
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_tag__child_ids
+msgid "Child Tags"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property__city
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__city
+msgid "City"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,help:premier_module.field_estate_property_owner__peppol_eas
+msgid ""
+"Code used to identify the Endpoint for BIS Billing 3.0 and its derivatives.\n"
+"             List available at https://docs.peppol.eu/poacc/billing/3.0/codelist/eas/"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__color
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_tag__color
+msgid "Color Index"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__commercial_partner_id
+msgid "Commercial Entity"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model,name:premier_module.model_commission_mixin
+msgid "Commission Mixin"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__ref_company_ids
+msgid "Companies that refers to partner"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__company_id
+msgid "Company"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__company_registry
+msgid "Company ID"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__company_name
+msgid "Company Name"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__commercial_company_name
+msgid "Company Name Entity"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__company_type
+msgid "Company Type"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__partner_gid
+msgid "Company database ID"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__contact_address
+msgid "Complete Address"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__complete_name
+msgid "Complete Name"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.ui.menu,name:premier_module.model_estate_config
+msgid "Configuration"
+msgstr ""
+
+#. module: premier_module
+#: model_terms:ir.ui.view,arch_db:premier_module.view_mon_super_wizard_form
+msgid "Confirm"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model,name:premier_module.model_res_partner
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__child_ids
+msgid "Contact"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,help:premier_module.field_estate_property_owner__message_bounce
+msgid "Counter of the number of bounced emails for this contact"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property__country_id
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__country_id
+msgid "Country"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__country_code
+msgid "Country Code"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property__create_uid
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_offer__create_uid
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__create_uid
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_state__create_uid
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_tag__create_uid
+#: model:ir.model.fields,field_description:premier_module.field_mass_offer__create_uid
+#: model:ir.model.fields,field_description:premier_module.field_mass_offer_line__create_uid
+#: model:ir.model.fields,field_description:premier_module.field_mon_super_wizard__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property__create_date
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_offer__create_date
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__create_date
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_state__create_date
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_tag__create_date
+#: model:ir.model.fields,field_description:premier_module.field_mass_offer__create_date
+#: model:ir.model.fields,field_description:premier_module.field_mass_offer_line__create_date
+#: model:ir.model.fields,field_description:premier_module.field_mon_super_wizard__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__credit_limit
+msgid "Credit Limit"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__credit_to_invoice
+msgid "Credit To Invoice"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,help:premier_module.field_estate_property_owner__credit_limit
+msgid "Credit limit specific to this partner."
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__currency_id
+msgid "Currency"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__property_payment_term_id
+msgid "Customer Payment Terms"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__customer_rank
+msgid "Customer Rank"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__days_sales_outstanding
+msgid "Days Sales Outstanding (DSO)"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__trust
+msgid "Degree of trust you have in this debtor"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property__description
+#: model:ir.model.fields,field_description:premier_module.field_mon_super_wizard__description
+msgid "Description"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__display_invoice_edi_format
+msgid "Display Invoice Edi Format"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__display_invoice_template_pdf_report_id
+msgid "Display Invoice Template Pdf Report"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property__display_name
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_offer__display_name
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__display_name
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_state__display_name
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_tag__display_name
+#: model:ir.model.fields,field_description:premier_module.field_mass_offer__display_name
+#: model:ir.model.fields,field_description:premier_module.field_mass_offer_line__display_name
+#: model:ir.model.fields,field_description:premier_module.field_mon_super_wizard__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__duplicated_bank_account_partners_count
+msgid "Duplicated Bank Account Partners Count"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,help:premier_module.field_estate_property_owner__partner_share
+msgid ""
+"Either customer (not a user), either shared user. Indicated the current "
+"partner is a customer without access or with a limited access created for "
+"sharing data."
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__email
+msgid "Email"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__employee
+msgid "Employee"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__employee_ids
+msgid "Employees"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__employees_count
+msgid "Employees Count"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.ui.menu,name:premier_module.menu_estate_property_root
+msgid "Estate"
+msgstr ""
+
+#. module: premier_module
+#: model:res.groups,name:premier_module.group_estate_administrator_noup
+msgid "Estate Administrator"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.actions.act_window,name:premier_module.action_estate_property
+msgid "Estate Properties"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model,name:premier_module.model_estate_property
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_offer__estate_property_id
+#: model_terms:ir.ui.view,arch_db:premier_module.view_estate_property_form
+#: model_terms:ir.ui.view,arch_db:premier_module.view_estate_property_list
+msgid "Estate Property"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model,name:premier_module.model_estate_property_offer
+msgid "Estate Property Offer"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.actions.report,name:premier_module.action_report_estate_property
+#: model:ir.model,name:premier_module.model_report_premier_module_report_estate_property
+#: model_terms:ir.ui.view,arch_db:premier_module.report_estate_property
+msgid "Estate Property Report"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.actions.server,name:premier_module.ir_cron_estate_property_ir_actions_server
+msgid "Estate Property Scheduler"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model,name:premier_module.model_estate_property_state
+#: model_terms:ir.ui.view,arch_db:premier_module.view_estate_property_state_form
+#: model_terms:ir.ui.view,arch_db:premier_module.view_estate_property_state_list
+msgid "Estate Property State"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model,name:premier_module.model_estate_property_tag
+msgid "Estate Property Tag"
+msgstr ""
+
+#. module: premier_module
+#: model:res.groups,name:premier_module.group_estate_user_noup
+msgid "Estate User"
+msgstr "Estate"
+
+#. module: premier_module
+#: model:ir.model.fields,help:premier_module.field_estate_property_owner__phone_sanitized
+msgid ""
+"Field used to store sanitized phone number. Helps speeding up searches and "
+"comparisons."
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__fiscal_country_codes
+msgid "Fiscal Country Codes"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__property_account_position_id
+msgid "Fiscal Position"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__message_follower_ids
+msgid "Followers"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__message_partner_ids
+msgid "Followers (Partners)"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,help:premier_module.field_estate_property_owner__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,help:premier_module.field_estate_property_owner__email_formatted
+msgid "Format email address \"Name <email@domain>\""
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__email_formatted
+msgid "Formatted Email"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__partner_latitude
+msgid "Geo Latitude"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__partner_longitude
+msgid "Geo Longitude"
+msgstr ""
+
+#. module: premier_module
+#: model_terms:ir.ui.view,arch_db:premier_module.view_estate_property_offer_search
+msgid "Group By..."
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__has_message
+msgid "Has Message"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property__id
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_offer__id
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__id
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_state__id
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_tag__id
+#: model:ir.model.fields,field_description:premier_module.field_mass_offer__id
+#: model:ir.model.fields,field_description:premier_module.field_mass_offer_line__id
+#: model:ir.model.fields,field_description:premier_module.field_mon_super_wizard__id
+msgid "ID"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__im_status
+msgid "IM Status"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__activity_exception_icon
+msgid "Icon"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,help:premier_module.field_estate_property_owner__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,help:premier_module.field_estate_property_owner__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,help:premier_module.field_estate_property_owner__message_has_error
+#: model:ir.model.fields,help:premier_module.field_estate_property_owner__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,help:premier_module.field_estate_property_owner__is_blacklisted
+msgid ""
+"If the email address is on the blacklist, the contact won't receive mass "
+"mailing anymore, from any list"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,help:premier_module.field_estate_property_owner__phone_sanitized_blacklisted
+msgid ""
+"If the sanitized phone number is on the blacklist, the contact won't receive"
+" mass mailing sms anymore, from any list"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__ignore_abnormal_invoice_amount
+msgid "Ignore Abnormal Invoice Amount"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__ignore_abnormal_invoice_date
+msgid "Ignore Abnormal Invoice Date"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__image_1920
+msgid "Image"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property__image_1024
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__image_1024
+msgid "Image 1024"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property__image_128
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__image_128
+msgid "Image 128"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property__image_256
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__image_256
+msgid "Image 256"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property__image_512
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__image_512
+msgid "Image 512"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields.selection,name:premier_module.selection__estate_property__type__immeuble
+msgid "Immeuble"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,help:premier_module.field_estate_property_owner__mobile_blacklisted
+msgid ""
+"Indicates if a blacklisted sanitized phone number is a mobile number. Helps "
+"distinguish which number is blacklisted             when there is both a "
+"mobile and phone field in a model."
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,help:premier_module.field_estate_property_owner__phone_blacklisted
+msgid ""
+"Indicates if a blacklisted sanitized phone number is a phone number. Helps "
+"distinguish which number is blacklisted             when there is both a "
+"mobile and phone field in a model."
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__industry_id
+msgid "Industry"
+msgstr ""
+
+#. module: premier_module
+#: model_terms:ir.ui.view,arch_db:premier_module.view_estate_property_form
+msgid "Informations"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__contact_address_inline
+msgid "Inlined Complete Address"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__invoice_warn
+msgid "Invoice"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__invoice_edi_format_store
+msgid "Invoice Edi Format Store"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__invoice_template_pdf_report_id
+msgid "Invoice Template Pdf Report"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__invoice_sending_method
+msgid "Invoice sending"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__invoice_ids
+msgid "Invoices"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__message_is_follower
+msgid "Is Follower"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__is_public
+msgid "Is Public"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__is_ubl_format
+msgid "Is Ubl Format"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__is_company
+msgid "Is a Company"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_state__is_sale
+msgid "Is a Sale State"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__function
+msgid "Job Position"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__journal_item_count
+msgid "Journal Items"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__lang
+msgid "Language"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property__write_uid
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_offer__write_uid
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__write_uid
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_state__write_uid
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_tag__write_uid
+#: model:ir.model.fields,field_description:premier_module.field_mass_offer__write_uid
+#: model:ir.model.fields,field_description:premier_module.field_mass_offer_line__write_uid
+#: model:ir.model.fields,field_description:premier_module.field_mon_super_wizard__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property__write_date
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_offer__write_date
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__write_date
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_state__write_date
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_tag__write_date
+#: model:ir.model.fields,field_description:premier_module.field_mass_offer__write_date
+#: model:ir.model.fields,field_description:premier_module.field_mass_offer_line__write_date
+#: model:ir.model.fields,field_description:premier_module.field_mon_super_wizard__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__calendar_last_notif_ack
+msgid "Last notification marked as read from base Calendar"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model,name:premier_module.model_crm_lead
+msgid "Lead/Opportunity"
+msgstr "Piste/opportunité"
+
+#. module: premier_module
+#: model:ir.model.fields.selection,name:premier_module.selection__estate_property__type__maison
+msgid "Maison"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_offer__margin
+msgid "Margin"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model,name:premier_module.model_mass_offer_line
+msgid "Mass Offer Line"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.actions.act_window,name:premier_module.action_mass_offer_wizard
+#: model:ir.model,name:premier_module.model_mass_offer
+#: model_terms:ir.ui.view,arch_db:premier_module.view_mass_offer_wizard
+msgid "Mass Offer Wizard"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.ui.menu,name:premier_module.menu_estate_property_mass_offer
+msgid "Mass Offers"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__meeting_ids
+msgid "Meetings"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__message_has_error
+msgid "Message Delivery error"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__invoice_warn_msg
+msgid "Message for Invoice"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__message_ids
+msgid "Messages"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__mobile
+msgid "Mobile"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.actions.act_window,name:premier_module.action_mon_super_wizard
+#: model:ir.model,name:premier_module.model_mon_super_wizard
+#: model_terms:ir.ui.view,arch_db:premier_module.view_estate_property_list
+#: model_terms:ir.ui.view,arch_db:premier_module.view_mon_super_wizard_form
+msgid "Mon Super Wizard"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property__name
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_offer__name
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__name
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_state__name
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_tag__name
+#: model:ir.model.fields,field_description:premier_module.field_mon_super_wizard__name
+msgid "Name"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__activity_calendar_event_id
+msgid "Next Activity Calendar Event"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__activity_summary
+msgid "Next Activity Summary"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__activity_type_id
+msgid "Next Activity Type"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__email_normalized
+msgid "Normalized Email"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__comment
+msgid "Notes"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__message_needaction_counter
+msgid "Number of Actions"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property__nb_floor
+msgid "Number of Floors"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__message_has_error_counter
+msgid "Number of errors"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,help:premier_module.field_estate_property_owner__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,help:premier_module.field_estate_property_owner__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_mass_offer_line__offer_id
+#: model_terms:ir.ui.view,arch_db:premier_module.view_estate_property_offer_form
+msgid "Offer"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_offer__offer_date
+msgid "Offer Date"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_mass_offer__offer_lines_ids
+msgid "Offer Lines"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property__offer_ids
+#: model_terms:ir.ui.view,arch_db:premier_module.view_mass_offer_wizard
+msgid "Offers"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__opportunity_ids
+msgid "Opportunities"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__opportunity_count
+msgid "Opportunity Count"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property__owner_id
+msgid "Owner"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_tag__parent_path
+msgid "Parent Path"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__parent_name
+msgid "Parent name"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__contract_ids
+msgid "Partner Contracts"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__use_partner_credit_limit
+msgid "Partner Limit"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__partner_vat_placeholder
+msgid "Partner Vat Placeholder"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__same_company_registry_partner_id
+msgid "Partner with same Company Registry"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__same_vat_partner_id
+msgid "Partner with same Tax ID"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__debit_limit
+msgid "Payable Limit"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__payment_token_count
+msgid "Payment Token Count"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__payment_token_ids
+msgid "Payment Tokens"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__peppol_endpoint
+msgid "Peppol Endpoint"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__peppol_eas
+msgid "Peppol e-address (EAS)"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__phone
+msgid "Phone"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__phone_sanitized_blacklisted
+msgid "Phone Blacklisted"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__phone_mobile_search
+msgid "Phone/Mobile"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property__image_1920
+msgid "Picture"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property__zip
+msgid "Postal Code"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,help:premier_module.field_estate_property_owner__property_outbound_payment_method_line_id
+msgid ""
+"Preferred payment method when buying from this vendor. This will be set by "
+"default on all outgoing payments created for this vendor"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,help:premier_module.field_estate_property_owner__property_inbound_payment_method_line_id
+msgid ""
+"Preferred payment method when selling to this customer. This will be set by "
+"default on all incoming payments created for this customer"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property__price
+msgid "Price"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__property_product_pricelist
+msgid "Pricelist"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__estate_property_ids
+#: model:ir.model.fields,field_description:premier_module.field_res_partner__estate_property_ids
+#: model:ir.model.fields,field_description:premier_module.field_res_users__estate_property_ids
+#: model:ir.ui.menu,name:premier_module.menu_estate_property
+#: model_terms:ir.ui.view,arch_db:premier_module.view_partner_form_inherit
+msgid "Properties"
+msgstr "Super propriétés"
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_crm_lead__estate_property_id
+#: model:ir.model.fields,field_description:premier_module.field_mass_offer_line__estate_property_id
+msgid "Property"
+msgstr "super top"
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__count_estate_properties
+#: model:ir.model.fields,field_description:premier_module.field_res_partner__count_estate_properties
+#: model:ir.model.fields,field_description:premier_module.field_res_users__count_estate_properties
+msgid "Property Count"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__property_inbound_payment_method_line_id
+msgid "Property Inbound Payment Method Line"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.actions.act_window,name:premier_module.action_estate_property_offer
+#: model:ir.ui.menu,name:premier_module.menu_estate_property_offer
+msgid "Property Offers"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__property_outbound_payment_method_line_id
+msgid "Property Outbound Payment Method Line"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.actions.act_window,name:premier_module.action_estate_property_state
+#: model:ir.ui.menu,name:premier_module.menu_estate_property_state
+msgid "Property States"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.actions.act_window,name:premier_module.action_estate_property_tag
+#: model:ir.ui.menu,name:premier_module.menu_estate_property_tag
+msgid "Property Tags"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__ref
+msgid "Reference"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__parent_id
+msgid "Related Company"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,help:premier_module.field_estate_property_owner__employee_ids
+msgid "Related employees based on their private address"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__partner_id
+msgid "Res Partner"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__activity_user_id
+msgid "Responsible User"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property__user_id
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__user_id
+msgid "Salesperson"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__phone_sanitized
+msgid "Sanitized Number"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,help:premier_module.field_estate_property_owner__invoice_warn
+msgid ""
+"Selecting the \"Warning\" option will notify user with the message, "
+"Selecting \"Blocking Message\" will throw an exception with the message and "
+"block the flow. The Message has to be written in the next field."
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__self
+msgid "Self"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_offer__seller_id
+#: model:ir.model.fields,field_description:premier_module.field_mass_offer_line__seller_id
+#: model_terms:ir.ui.view,arch_db:premier_module.view_estate_property_offer_search
+msgid "Seller"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_offer__selling_price
+#: model:ir.model.fields,field_description:premier_module.field_mass_offer_line__selling_price
+msgid "Selling Price"
+msgstr "Selling Price"
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__partner_share
+msgid "Share Partner"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__show_credit_limit
+msgid "Show Credit Limit"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__signup_type
+msgid "Signup Token Type"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__specific_property_product_pricelist
+msgid "Specific Property Product Pricelist"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__starred_message_ids
+msgid "Starred Message"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property__state_id
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__state_id
+msgid "State"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,help:premier_module.field_estate_property_owner__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property__street
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__street
+msgid "Street"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__street2
+msgid "Street2"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__supplier_rank
+msgid "Supplier Rank"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property__tag_ids
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__category_id
+msgid "Tags"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__vat
+msgid "Tax ID"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields.selection,name:premier_module.selection__estate_property__type__terrain
+msgid "Terrain"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,help:premier_module.field_estate_property_owner__country_code
+msgid ""
+"The ISO country code in two chars. \n"
+"You can use this field for quick search."
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,help:premier_module.field_estate_property_owner__vat
+msgid ""
+"The Tax Identification Number. Values here will be validated based on the "
+"country format. You can use '/' to indicate that the partner is not subject "
+"to tax."
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,help:premier_module.field_estate_property_owner__property_account_position_id
+msgid ""
+"The fiscal position determines the taxes/accounts used for this contact."
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,help:premier_module.field_estate_property_owner__user_id
+msgid "The internal user in charge of this contact."
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.constraint,message:premier_module.constraint_estate_property_check_name_unique
+msgid "The name of the property must be unique"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,help:premier_module.field_estate_property_owner__company_registry
+msgid ""
+"The registry number of the company. Use it if it is different from the Tax "
+"ID. It must be unique across all partners of a same country"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,help:premier_module.field_estate_property_owner__property_account_payable_id
+msgid ""
+"This account will be used instead of the default one as the payable account "
+"for the current partner"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,help:premier_module.field_estate_property_owner__property_account_receivable_id
+msgid ""
+"This account will be used instead of the default one as the receivable "
+"account for the current partner"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,help:premier_module.field_estate_property_owner__email_normalized
+msgid ""
+"This field is used to search on email address as the primary email field can"
+" contain more than strictly an email address."
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,help:premier_module.field_estate_property_owner__property_supplier_payment_term_id
+msgid ""
+"This payment term will be used instead of the default one for purchase "
+"orders and vendor bills"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,help:premier_module.field_estate_property_owner__property_payment_term_id
+msgid ""
+"This payment term will be used instead of the default one for sales orders "
+"and customer invoices"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,help:premier_module.field_estate_property_owner__property_product_pricelist
+msgid ""
+"This pricelist will be used, instead of the default one, for sales to the "
+"current partner"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__tz
+msgid "Timezone"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__tz_offset
+msgid "Timezone offset"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__title
+msgid "Title"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__total_invoiced
+msgid "Total Invoiced"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__debit
+msgid "Total Payable"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__credit
+msgid "Total Receivable"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,help:premier_module.field_estate_property_owner__credit
+msgid "Total amount this customer owes you."
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,help:premier_module.field_estate_property_owner__debit
+msgid "Total amount you have to pay to this vendor."
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property__type
+msgid "Type"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,help:premier_module.field_estate_property_owner__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,help:premier_module.field_estate_property_owner__peppol_endpoint
+msgid ""
+"Unique identifier used by the BIS Billing 3.0 and its derivatives, also "
+"known as 'Endpoint ID'."
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,help:premier_module.field_estate_property_owner__barcode
+msgid "Use a barcode to identify this contact."
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_commission_mixin__user_id
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_offer__user_id
+msgid "User"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__user_ids
+msgid "Users"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_offer__validity_date
+msgid "Validity Date"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_mass_offer_line__price
+msgid "Value Price"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__property_supplier_payment_term_id
+msgid "Vendor Payment Terms"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__website
+msgid "Website Link"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__website_message_ids
+msgid "Website Messages"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,help:premier_module.field_estate_property_owner__website_message_ids
+msgid "Website communication history"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,help:premier_module.field_estate_property_owner__tz
+msgid ""
+"When printing documents and exporting/importing data, time values are computed according to this timezone.\n"
+"If the timezone is not set, UTC (Coordinated Universal Time) is used.\n"
+"Anywhere else, time values are computed according to the time offset of your web client."
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__zip
+msgid "Zip"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,help:premier_module.field_estate_property_owner__days_sales_outstanding
+msgid ""
+"[(Total Receivable/Total Revenue) * number of days since the first invoice] "
+"for this customer"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model.fields,field_description:premier_module.field_estate_property_owner__invoice_edi_format
+msgid "eInvoice format"
+msgstr ""
+
+#. module: premier_module
+#: model:ir.model,name:premier_module.model_estate_property_owner
+msgid "estate.property.owner"
+msgstr ""
+
+#. module: premier_module
+#: model_terms:ir.ui.view,arch_db:premier_module.view_estate_property_form
+msgid "offer"
+msgstr ""
