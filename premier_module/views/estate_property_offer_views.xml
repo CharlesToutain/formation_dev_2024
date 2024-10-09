@@ -33,6 +33,7 @@
                 <field name="name"/>
                 <field name="seller_id"/>
                 <field name="buyer_id"/>
+                <field name="selling_price"/>
                 <field name="estate_property_id"/>
                 <field name="offer_date"/>
                 <field name="validity_date"/>
@@ -40,6 +41,20 @@
         </field>
     </record>
 
+    <record id="view_estate_property_offer_search" model="ir.ui.view">
+        <field name="name">estate.property.offer.search</field>
+        <field name="model">estate.property.offer</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="buyer_id"/>
+                <field name="seller_id"/>
+                <filter name="validity_date" date="validity_date"/>
+                <group expand="0" string="Group By...">
+                    <filter string="Seller" name="seller_id" domain="[]" context="{'group_by': 'seller_id'}"/>
+                </group>
+            </search>
+        </field>
+    </record>
 
     <record id="action_estate_property_offer" model="ir.actions.act_window">
         <field name="name">Property Offers</field>
